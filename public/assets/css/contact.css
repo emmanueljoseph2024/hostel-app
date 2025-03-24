@@ -1,0 +1,44 @@
+*{
+    margin:0; padding:0;
+}
+body{
+    
+    width: 100vw; /* 100% of the viewport width */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    overflow-x: hidden;
+}
+.form_container{
+    width:80%; max-width:500px; display: flex; flex-direction: column; justify-content: center; padding:20px; box-shadow: 6px 6px 15px rgba(0, 0, 0, 0.2); 
+}
+input{
+width:100%; height:30px; border-radius:10px;  border-color: green;
+font-size:15px; padding:5px; margin-bottom:10px; display: flex; align-items:flex-start;
+
+}
+.container{
+    display: flex; justify-content: center; width:100%; height:100vh; align-items: center;
+}
+label{
+    font-size: 20px;
+}
+button{
+display:flex; justify-content: center; background-color:red; height:30px; margin:10px; color:white; font-size: 20px; width:50%;
+}
+h3{
+    font-size: 40px; text-align: center; color:green; margin-top: 30px;
+}
+#text{
+    height:60px!important;
+}
+/*contact_container*/
+p{
+    font-size: 20px; margin:10px; 
+}
+.contact_container{
+    width:100%; display: flex; justify-content: center; margin-top: 40px; margin-bottom: 30px;
+    
+}
+span{
+    font-weight: bold;
+}
